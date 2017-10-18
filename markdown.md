@@ -1,7 +1,24 @@
-# Markdawn記法チートシート
+# Markdown記法チートシート
 
 Kobitoで利用可能なMarkdown記法のチートシートです。
 
+Markdown記法の原文については、[Daring Fireball: Markdown Syntax Documentation]
+(http://daringfireball.net/projects/markdown/syntax.php)をご覧下さい。
+また、コードに関する記法は[GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/)に準拠しています。
+## Code - コードの挿入
+
+たとえば、Rubyで記述したコードをファイル名「kobito.rb」として記録したいときは、**バッククオート**を使用して以下のように投稿するとシンタックスハイライトが適用されます。
+**コードブロック上下に空行を挿入しないと正しく表示されないことがあります。**
+
+> (空行)
+> \`\`\`ruby:kobito.rb
+> puts 'The best app to log and share programming knowledge.'
+> \`\`\`
+> (空行)
+
+**結果**
+
+```ruby:kobito.rb
 puts 'The best app to log and share programming knowledge.'
 ```
 
