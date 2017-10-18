@@ -1,4 +1,4 @@
-# Morkdown記法チートシート
+# Markdawn記法チートシート
 
 Kobitoで利用可能なMarkdown記法のチートシートです。
 
